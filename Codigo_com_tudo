@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>
+	Teste
+</title>
+</head>
+<body>
+
+
+<h1>Isso é um cabeçalho</h1>
+<h1>Cabeçalho h1</h1>
+<h2>Cabeçalho h2</h2>
+<h3>Cabeçalho h3</h3>
+<h4>Cabeçalho h4</h4>
+<h5>Cabeçalho h5</h5>
+<h6>Cabeçalho h6</h6>
+
+
+<p>Isso é um /p arágrafo.</p>
+
+
+<br>
+<br>
+(br) é quebra de linha
+<br>
+<br>
+<br>
+
+
+<hr>
+a tag hr (cria linhas horizontais)
+<hr>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+Listas 
+<h1>Listas HTML</h1>
+<h2>Exemplo de lista ordenada</h2>
+<ol>
+
+<li>Café</li>
+<li>Leite</li>
+<li>Chá</li>
+
+</ol>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1>Listas HTML</h1>
+<h2>Exemplo de lista ordenada</h2>
+<ol start="3">
+<li>Café</li>
+<li>Chá</li>
+<li>Leite</li>
+</ol>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<h1>Listas HTML</h1>
+<h2>Exemplo de lista ordenada</h2>
+<ol type="a">
+<li>Café</li>
+<li>Chá</li>
+<li>Leite</li>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!-- Imagem na pasta atual -->
+<img src="jarro_com_flores.jpeg" alt="Jarro comasdas flores">
+
+<!-- Imagem em uma subpasta -->
+<img src="/_imagens/jarro_com_flores.jpeg"   alt="Jarroasdas com flores">
+
+<!-- Imagem em outro servidor -->
+<img src="https://thumbs.dreamstime.com/b/flores-alaranjadas-no-jarro-azul-30791312.jpg" alt="Jarro com flores">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<video width="320" height="240" controls>
+<source src="birdbox_studio.mp4" type="video/mp4">
+<source src="birdbox_studio.ogg" type="video/ogg">
+Seu navegador não suporta vídeos.
+</video>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</ol>
+</body>
+</html>
