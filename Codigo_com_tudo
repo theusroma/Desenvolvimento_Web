@@ -93,13 +93,13 @@ Listas
 
 
 <!-- Imagem na pasta atual -->
-<img src="jarro_com_flores.jpeg" alt="Jarro comasdas flores">
-
+<img src="soteldo.jpg" alt="Soteldo comemorando" width="50%">
+<br>
 <!-- Imagem em uma subpasta -->
-<img src="/_imagens/jarro_com_flores.jpeg"   alt="Jarroasdas com flores">
-
+<img src="_/subpasta/santos.jpg"   alt="Santos" width="20%">
+<br>
 <!-- Imagem em outro servidor -->
-<img src="https://thumbs.dreamstime.com/b/flores-alaranjadas-no-jarro-azul-30791312.jpg" alt="Jarro com flores">
+<img src="https://thumbs.dreamstime.com/b/flores-alaranjadas-no-jarro-azul-30791312.jpg" alt="Jarro com flores" width="20%">
 
 <br>
 <br>
@@ -111,8 +111,8 @@ Listas
 
 
 <video width="320" height="240" controls>
-<source src="birdbox_studio.mp4" type="video/mp4">
-<source src="birdbox_studio.ogg" type="video/ogg">
+	<source src="birdbox_studio.mp4" type="video/mp4">
+	<source src="birdbox_studio.ogg" type="video/ogg">
 Seu navegador não suporta vídeos.
 </video>
 
@@ -124,7 +124,27 @@ Seu navegador não suporta vídeos.
 <br>
 <br>
 
+<!------- LINKS ----------->
+
+<a href="https://www.up.edu.br/">Universidade Positivo</a>
+<br>
+<a href="https://www.instagram.com/">Instagram </a>
+<br>
+<a href="https://www.google.com/search?q=bts&rlz=1C1GCEA_enBR1072BR1072&oq=bts&aqs=chrome..69i57j0i271l2.311j0j4&sourceid=chrome&ie=UTF-8#vhid=dKAd3npeMKkiiM&vssid=l">BTS</a>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<a href="#css">Sobre o CSS</a> 
+<p id="css">O CSS é usado para estilizar o conteúdo HTML, permitindo que osdesenvolvedores controlem a aparência da página. Com CSS, é possível definir as cores,fontes, tamanhos e posicionamentos dos elementos na página.</p
+
 
 </ol>
 </body>
 </html>
+
