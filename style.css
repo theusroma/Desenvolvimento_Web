@@ -1,0 +1,95 @@
+*{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+    padding: 0px;
+    font-family: Apple Chancery, cursive;
+}
+
+
+#texto_cinza, #negrito_destaque{
+   
+    margin: 0px;
+}
+
+
+div{
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: honeydew;
+}
+
+
+
+#negrito{
+    font-weight: bold;
+}
+
+#negrito_vermelho{
+    font-weight: bold;
+    color: red;
+}
+
+#principal{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250;
+    marquee: right;
+}
+
+
+#destaque{
+    font-size: 15px;
+    width: 80%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    line-height: 1.5;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+#negrito_destaque{
+    font-weight: bold;
+    margin: 0px;
+}
+
+th, td{
+    border: 2px solid lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.negrito_tabela{
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background-color: #dddd;
+}
+
+#linha_final{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
