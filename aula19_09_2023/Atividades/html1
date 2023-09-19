@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="atividade1.css">
+    <link rel="stylesheet" href="atividade.css">
     <title>Atividade 1</title>
 </head>
 <body>
@@ -15,16 +15,23 @@
 
 
         <div class="item-2">
-            <h1>Outros conteúdos</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repudiandae quo animi eaque quia quis voluptatem similique maxime molestias veniam.</p>
+            <h1>Outros <br> conteúdos</h1>
+
+            <br>
+
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur libero perspiciatis labore, asperiores molestias provident dolor illum. Ipsa nisi esse quo? Suscipit atque minima voluptate dolorum laboriosam quas maiores quibusdam molestias, tempora voluptat </p>
         </div>
 
 
 
 
-        <div class="item-3">
+        <div class="item-3" {line-height: 2;}>
             <h1>Conteúdo principal</h1>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quas cum earum veniam atque, amet ullam explicabo ipsa nesciunt minus inventore eligendi ratione quasi aspernatur? Veniam error iusto non eligendi fugit, maxime tenetur qui fugiat dolorem esse repudiandae. Voluptatem, dicta ut! Accusamus voluptas, inventore deserunt tenetur quam quibusdam? Itaque dignissimos maxime eligendi dolor unde consequuntur laboriosam ipsa, fugiat quaerat sed? Assumenda ad magnam odit porro, quia soluta magni modi aperiam consequuntur aliquid laboriosam eum itaque sapiente rem eius. Expedita, corporis?
+
+            <br>
+
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi maiores minima ratione neque tempore repellat culpa, veniam necessitatibus deserunt! Adipisci quidem enim tempore, quaerat eveniet veniam ducimus, voluptate eum tempora inventore harum, accusantium odio. Rem commodi modi, quaerat voluptas obcaecati asperiores omnis atque explicabo fugiat pariatur ipsam culpa, non minima. Maiores vel perspiciatis assumenda blanditiis possimus dolores dolorem, quo, accusamus cum id illo, harum a maxime deleniti. Ad accusamus iusto exercitationem esse omnis neque fugiat eius? Optio magnam autem minima totam ad voluptatibus dolorum. Sunt, qui ipsa. Sapiente nemo esse explicabo est quasi repellendus inventore sint, facilis blanditiis ! </p>
+            
         </div>
 
 
