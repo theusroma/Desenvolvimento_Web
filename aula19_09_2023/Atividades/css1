@@ -1,18 +1,65 @@
 #container{
+    font-family: Arial, Helvetica, sans-serif;
     display: grid;
-    grid-template-columns: repeat (4, 200px);
-    grid-template-areas: "item-1 item-1 item-1"
-                         "item-2 item-3 item-3"
-                         "item-2 item-3 item-3"
-                         ;
+    grid-template-columns: repeat(4, 371,5px);
+    height: 0;
+    align-items: ;
+    gap: 10px;
+    grid-template-areas: "item-1 item-1 item-1 item-1"
+                         "item-2 item-3 item-3 item-3"
+                         "item-2 item-3 item-3 item-3"
+                         "item-4 item-4 item-4 item-4";
 }
+    
 
 .item-1{
 
-    background-color: aqua;
+    grid-area: item-1;
+    background-color: DodgerBlue;
     border: 2px solid gray;
     border-radius: 5px;
+    padding: 15px 0px 15px 20px;
+    
 
 
 }
 
+.item-2{
+
+    
+    
+    grid-area: item-2;
+    border-right: 1px solid black;
+    padding: 35px 25px 100px 0px;
+
+}
+
+.item-3{
+
+    
+   
+    grid-area: item-3;
+    padding: 40px 0px 90px 75px;
+
+
+}
+
+
+.item-4{
+
+  
+    grid-area: item-4;
+    background-color: DodgerBlue;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 15px 0px 15px 20px;
+
+}
+
+.paragrafo{
+    line-height: 2;
+    font-size: larger;
+    font-weight: 400;
+    
+    
+}
