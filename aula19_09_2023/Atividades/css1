@@ -1,3 +1,18 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
+#container{
+    display: grid;
+    grid-template-columns: repeat (4, 200px);
+    grid-template-areas: "item-1 item-1 item-1"
+                         "item-2 item-3 item-3"
+                         "item-2 item-3 item-3"
+                         ;
 }
+
+.item-1{
+
+    background-color: aqua;
+    border: 2px solid gray;
+    border-radius: 5px;
+
+
+}
+
