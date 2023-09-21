@@ -4,11 +4,11 @@
     grid-template-columns: repeat(4, 371,5px);
     height: 0;
     align-items: ;
-    gap: 10px;
-    grid-template-areas: "item-1 item-1 item-1 item-1"
-                         "item-2 item-3 item-3 item-3"
-                         "item-2 item-3 item-3 item-3"
-                         "item-4 item-4 item-4 item-4";
+    gap: 20px;
+    grid-template-areas: "item-1 item-1 item-1 item-1 item-1"
+                         "item-2 item-3 item-3 item-3 item-3"
+                         "item-2 item-3 item-3 item-3 item-3"
+                         "item-4 item-4 item-4 item-4 item-4";
 }
     
 
@@ -30,7 +30,7 @@
     
     grid-area: item-2;
     border-right: 1px solid black;
-    padding: 35px 25px 100px 0px;
+    padding: 35px 25px 40px 0px;
 
 }
 
@@ -39,7 +39,7 @@
     
    
     grid-area: item-3;
-    padding: 40px 0px 90px 75px;
+    padding: 40px 0px 0 75px;
 
 
 }
