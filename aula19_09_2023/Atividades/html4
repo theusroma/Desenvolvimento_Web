@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+    <link rel="stylesheet" href="atividade3.css">
+</head>
+<body>
+    <div id="container">
+
+    <div class="dashboard">
+        <center>Dashboard</center>
+        
+    </div>
+
+    <div class="maincontent">
+        <center>Main Content</center>
+    </div>
+    <div class="rightsidebar">
+        <center>Right Sidebar</center>
+    </div>
+
+
+    <div class="one">
+        <center>Footone One</center>
+    </div>
+    <div class="two">
+        <center>Footone Two</center>
+    </div>
+
+    </div>
+</body>
+</html>
