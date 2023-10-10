@@ -1,0 +1,14 @@
+//Escreva um programa que leia horas, minutos e segundos do teclado e apresente o tempo total em segundos
+
+let hora = Number(prompt('Informe as horas: '));
+let minuto = Number(prompt('Informe as minuto: '));
+let segundo = Number(prompt('Informe as segundos: '));
+
+hora *= 3600;
+minuto *= 60;
+
+let soma = hora + minuto + segundo
+
+console.log(soma, 'segundos')
+
+//console.log((hora * 3600) + (minuto * 60) + segundo, 'segundos');
