@@ -1,0 +1,12 @@
+//Uma fabrica de refrigerantes vende seu produto em três formatos: lata de 350 ml, garrafa de 600 ml egarrafa de 2 litros. Tomando por base que um comerciante compre uma determinada quantidade decada um dos formatos disponíveis, escreva um programa para calcular quantos litros de refrigerante ele comprou.
+
+let trezentos = Number(prompt('Quantas latas de 350ml comprou?\n'));
+let seis = Number(prompt('Quantas garradas de 600ml comprou?'));
+let dois = Number(prompt('Quantas garrafas de 2lts comprou?'));
+
+trezentos * 0.35;
+seis * 0.6;
+
+let total = trezentos + seis + dois;
+
+console.log('O comerciante comprou',total,'litros de refrigerante.')
