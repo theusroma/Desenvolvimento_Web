@@ -1,0 +1,5 @@
+//Escreva um programa que leia uma temperatura em graus Celsius e a apresente convertida em grausFahrenheit.
+
+let num = Number(prompt('Digite um a temperatura: '));
+
+console.log('A temperatura em fahrenheit é de:',num * 1.8 + 32);
