@@ -1,0 +1,9 @@
+//Escreva um programa que leia dois números inteiros e faça a troca de valores entre eles,apresentando as variáveis com seus valores trocados
+
+let num1 = Number(prompt('Digite o primeiro valor: '));
+let num2 = Number(prompt('Digite o segundo valor: '));
+const num3 = num1
+
+num1 = num2;
+num2 = num3;
+console.log(num1,"&",num3);
