@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio</title>
+</head>
+<body>
+    
+    <label for="solteiro">Solteiro</label>
+    <input type="radio" name="estado_civil" id="solteiro" value="solteiro">
+
+    <br><br>
+
+    <label for="divorciado">Divorciado</label>
+    <input type="radio" name="estado_civil" id="divorciado" value="divorciado">
+
+    <br><br>
+
+    <label for="casado">Casado</label>
+    <input type="radio" name="estado_civil" id="casado" value="casado">
+
+    <br><br>
+
+    <button onclick="clique()">Clicar!</button>
+
+
+    <script>
+        function clique(){
+            let estado_civil = document.getElementsByName('estado_civil');
+            let i;
+
+            for(i = 0; i < estado_civil.length; i++){
+                if(estado_civil[i]. checked){
+                    alert(`Você selecionou ${estado_civil[i].value}.`);
+
+                    break
+                }
+            }
+        }
+    </script>
+
+
+</body>
+</html>
