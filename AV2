@@ -8,13 +8,18 @@
     
     *{
         
-        margin-top: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
-        margin-left: 20px;
         font-family: Arial, Helvetica, sans-serif;
         text-justify: auto;
-        line-height: 1.5;
+        
+    }
+
+    #centro{
+        margin-top: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        line-height: 1.3;
+        font-size: large;
     }
 
     #azul{
@@ -26,23 +31,42 @@
         color: red;
     }
 
+    #formas{
+        color: rgb(59, 104, 186);
+        font-size: 52px ;
+    }
+
+    #caixa{
+        color: white;
+        padding: 25px;
+        background-color: rgb(59, 104, 186);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    #resultado{
+        text-align: center;
+    }
+   
     </style>
 </head>
 <body>
 
+    <div id="centro">
 <center><img src="topo.jpeg" alt="" id="topo" width="1000"></center>
     
 
 
     <p>
         <center>
-            <h1 id="azul">5 formas de economizar energia elétrica dentro de casa</h1>
+            <h1 id="formas">5 formas de economizar energia elétrica<br>dentro de casa</h1>
         </center>
         
     </p>
 
     <p>
-        Cada vez mais, as pessoas estão buscando formas de economizar energia elétrica. Conforme levantamento, o Brasil está entre as nações com a energia mais cara. Além damotivação financeira, há, ainda, a que envolve a sustentabilidade. pesquisas demonstramque o brasileiro ocupa o terceiro lugar no ranking de povos com maior consciência epreocupação com a sustentabilidade. A humanidade está passando por constantes criseshídricas e energéticas, então é importante que tenha pessoas pensando no meio ambienteao mesmo tempo em que garantem economia de energia elétrica.
+        Cada vez mais, as pessoas estão buscando <b>formas de economizar energia elétrica.</b> Conforme levantamento, o Brasil está entre as nações com a energia mais cara. Além damotivação financeira, há, ainda, a que envolve a sustentabilidade. pesquisas demonstramque o brasileiro ocupa o terceiro lugar no ranking de povos com maior consciência epreocupação com a sustentabilidade. A humanidade está passando por constantes criseshídricas e energéticas, então é importante que tenha pessoas pensando no meio ambienteao mesmo tempo em que garantem economia de energia elétrica.
     </p>
 
     <p>
@@ -51,9 +75,9 @@
     </p>
 
     <p>
-        <center>
+        
         <h1 id="azul">Formas de economizar energia elétrica em seu dia a dia</h1>
-    </center>
+    
     </p>
 
 
@@ -81,7 +105,7 @@
     </p>
     
     <p>
-        Na hora de pensar em formas de economizar energia elétrica é preciso levar em conta a troca das lâmpadas de sua residência. Isso porque esse tipo de iluminação é responsável por cerca de 20% do consumo total de energia de uma casa. Por isso, é importante optar pelos modelos que demandem menor consumo.
+        Na hora de pensar em formas de economizar energia elétrica é preciso levar em conta a troca das lâmpadas de sua residência. Isso porque esse tipo de iluminação é responsável por cerca de <b>20% do consumo total de energia de uma casa.</b> Por isso, é importante optar pelos modelos que demandem menor consumo.
     </p>
 
     <p>
@@ -99,7 +123,7 @@
     </p>
 
     <p>
-        Se você tem dúvidas sobre a efetividade dessa ação, saiba que, não é novidade que aparelhos ligados consomem demais. Faça um teste. Sabia que somente um decodificador de TV a cabo que é utilizado por poucas horas no dia, mas fica o restante do tempo na tomada, pode gerar um custo adicional de quase cem reais anualmente?
+        Se você tem dúvidas sobre a efetividade dessa ação, saiba que, não é novidade que <b>aparelhos ligados consomem demais.</b> Faça um teste. Sabia que somente um decodificador de TV a cabo que é utilizado por poucas horas no dia, mas fica o restante do tempo na tomada, pode gerar um custo adicional de quase cem reais anualmente?
     </p>
 
 
@@ -129,7 +153,7 @@
         Para reduzir seu consumo, dê preferência a passar mais roupas por vez do que passar uma peça a cada ligada do ferro. Ao utilizar o chuveiro, sempre que possível, utilize a função Verão e tente diminuir o tempo de seus banhos. Para o caso da máquina de lavar, também busque juntar diversas peças para utilizar capacidade total do equipamento, ao invés de lavar poucas peças por vez.
     </p>
 
-    <hr>
+    <hr width="70%">
 
     <p>
         Com pequenas atitudes, é possível alcançar grandes resultados! Essas são formas simples de economizar energia, reduzir sua conta de luz e, ainda, de ter atitudes mais sustentáveis em seu dia a dia.
@@ -147,27 +171,64 @@
     <center>
     <img src="lampada_desligada.jpeg" alt="" id="lampada" onmouseover="acender()" onmouseleave="apagar()" onclick="quebrar()">
     </center>
+    
+    <p id="resultado">
+        Total de acendimentos: 0
+    </p>
 
     <script>
+     //   function()acender{}
+        let acendimentos = 0;
         let imagem = document.getElementById('lampada');
+        let status = 0;
 
         function acender(){
-            imagem.src = "lampada_ligada.jpeg";
+            if(status == 0){
+                imagem.src = "lampada_ligada.jpeg";
+            acendimentos++;
+            document.getElementById('resultado').innerText = `Total de acendimentos: ${acendimentos}`;
+            }
+            
         }
 
-        function apagar(){
-            imagem.src = "lampada_desligada.jpeg"
-        }
+
+
 
         function quebrar(){
-            imagem.src = "lampada_quebrada.jpeg"
+            imagem.src = "lampada_quebrada.jpeg";
+            status = 1;
+
+            
         }
+
+        
+        function apagar(){
+            if(status == 0){
+                imagem.src = "lampada_desligada.jpeg"}
+            }
+            
+         
+
+        
+
+        
+
+
+
+        
     </script>
 
-    <p id="">
+
+
+    <p id="fonte">
         Fonte:
         <a href="https://www.rioverde.com.br/empreendimentos-imobiliarios/formas-de-economizar-energia/">Rio Verde Empreendimentos</a>
         
     </p>
+    
+    <p id="caixa">Desenvolvimento Web Básico</p>
+    
+
+</div>
 </body>
 </html>
