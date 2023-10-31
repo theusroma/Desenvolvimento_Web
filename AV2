@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <h1>5 formas de economizar energia elétrica dentro de casa</h1>
+
+    <img src="topo.jpeg" alt="" id="topo">
+
+    <img src="lampada_desligada.jpeg" alt="" id="lampada" onmouseover="acender()" onmouseleave="" onclick="">
+
+
+    <script>
+        let imagem = document.getElementById('lampada');
+
+        function acender(){
+            imagem.src = "lampada_ligada.jpeg";
+        }
+    </script>
+</body>
+</html>
